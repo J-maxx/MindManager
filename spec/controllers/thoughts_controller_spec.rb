@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ThoughtsController do
+describe 'ThoughtsController' do
   
   describe '#index' do
     

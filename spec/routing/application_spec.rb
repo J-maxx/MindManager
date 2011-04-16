@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Application Routing do
+describe 'Application Routing' do
   
-  describe ThoughtsController do
+  describe 'ThoughtsController' do
     
     it 'recognizes and generates thought path' do
       { :get => thoughts_path }.should route_to :controller => 'thoughts', :action => 'index'
